@@ -47,8 +47,10 @@
       <div class="container">
         <div class="row">
           <!-- BEGIN COPYRIGHT -->
-          <div class="col-md-6 col-sm-6 padding-top-10">
-                  &copy; <%= date(new Date(), 'YYYY') %> <%= config.author %>
+          <div class="col-md-6 col-sm-6 copyright-footer">
+                  &copy; <%= date(new Date(), 'YYYY') %> <%= config.author %> <br>
+                  总访问量 <span id="busuanzi_value_site_pv"></span>次 |
+                  访客数 <span id="busuanzi_value_site_uv"></span>人
           </div>
           <!-- END COPYRIGHT -->
 	  <%- partial('_partial/social') %>
